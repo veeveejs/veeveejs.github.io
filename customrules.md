@@ -1,0 +1,19 @@
+# Custom Validation Rules
+As customization is a core principal of the VeeVee library, you are able to create custom validation rules.
+
+## Creating a custom rule
+...  
+
+## Using a custom rule
+...
+
+## Advanced custom rules
+...
+### Target dependent
+...
+
+### Non-immediate
+...
+
+### Custom reasoning
+...
