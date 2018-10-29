@@ -4,6 +4,7 @@
 * [Custom Rules](/customrules)
 * [Error Messages](/errormessages)
 * [Configuration](/configuration)
+* [VeeVee Components](/veeveecomponents)
 
 * API
 * [VeeVee Directive](/vvdirective)
