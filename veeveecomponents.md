@@ -27,3 +27,14 @@ Is equivalent to doing the following
 <span v-if="errors.has('email')"><strong>Error: </strong>{{ errors.first('email') }}</span>
 <span v-if="errors.has('*')"><strong>Error: </strong>{{ errors.first('*') }}</span>
 ```
+  
+> **TIP**  
+> The `<veevee-error>` component also accepts slots, for displaying a message after the error. As this is a span, it's usually handy to add a `<br>` element, to add a space afterwards.
+
+```html
+<veevee-error field="email"><br></veevee-error>
+```
+Is equiavlent too
+```html
+<span v-if="errors.has('email')"><strong>Error: </strong>{{ errors.first('email') }}<br></span>
+```
