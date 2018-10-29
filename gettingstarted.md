@@ -33,7 +33,13 @@ To get the errors for this, VeeVee provides an _**ErrorBag**_ which automaticall
     <li v-for="error in errors.all()">Error: {{ error }}</li>
 </ul>
 
-<span>Error: {{ errors.first('email') }}</span>
+<span v-if="errors.has('email')">Error: {{ errors.first('email') }}</span>
+
+<!-- Alternatively -->
+<veevee-error-list></veevee-error-list>
+
+<veevee-error field="email"></veevee-error>
+
 ```
 
 To keep things simple, the ErrorBag automatically groups errors based on rules, and as such will only show the first error for any given rule when using `errors.all()`, this of course can be overridden in the config.  
