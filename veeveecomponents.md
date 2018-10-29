@@ -34,7 +34,7 @@ Is equivalent to doing the following
 ```html
 <veevee-error field="email"><br></veevee-error>
 ```
-Is equiavlent too
+Is equivalent too
 ```html
 <span v-if="errors.has('email')"><strong>Error: </strong>{{ errors.first('email') }}<br></span>
 ```
