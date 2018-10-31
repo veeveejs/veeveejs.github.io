@@ -2,6 +2,9 @@
 > _Pronounced [vee-vee]_   
 > A validation package based on laravel's validation for use with Vue.js.
 
+# The Docs Have Moved!
+The new docs can be found [here](https://docs.heapsgoodservices.com/veevee/)
+
 ## Introduction
 
 VeeVee is a validation plugin built for Vue.js. VeeVee is heavily inspired by the validation that is provided in laravel, and other similar validation plugins for javascript.  
